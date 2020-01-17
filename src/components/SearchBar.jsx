@@ -19,7 +19,6 @@ export class SearchBar extends Component {
 							value={this.state.term}
 							onChange={e => this.setState({ term: e.target.value })}
 						/>
-						<button>Search</button>
 					</div>
 				</form>
 			</div>
